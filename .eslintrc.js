@@ -4,10 +4,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb',
-  ],
+  extends: ['plugin:react/recommended', 'airbnb'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -15,17 +12,25 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-  ],
+  plugins: ['react'],
   rules: {
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-    'react/prop-types': [0, { ignore: [], customValidators: [], skipUndeclared: true }],
-    'react/jsx-props-no-spreading': [0, {
-      html: 'ignore' | 'enforce',
-      custom: 'ignore' | 'enforce',
-      explicitSpread: 'ignore' | 'enforce',
-      exceptions: [],
-    }],
+    'react/jsx-filename-extension': [
+      1,
+      { extensions: ['.js', '.jsx'] },
+    ],
+    'react/prop-types': [
+      0,
+      { ignore: [], customValidators: [], skipUndeclared: true },
+    ],
+    'react/jsx-props-no-spreading': [
+      0,
+      {
+        html: 'ignore' | 'enforce',
+        custom: 'ignore' | 'enforce',
+        explicitSpread: 'ignore' | 'enforce',
+        exceptions: [],
+      },
+    ],
+    validateLineBreaks: 'LF',
   },
 };
