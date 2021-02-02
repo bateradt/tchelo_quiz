@@ -4,24 +4,57 @@
   "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "image": "https://media.giphy.com/media/F3JhKaucb9QqSF7bSS/giphy.gif",
+      "title": "Qual foi o piloto com mais vitórias pela Ferrari?",
       "description": "Essa é pra aquecer",
       "answer": 2,
-      "alternatives": [".elemento", "*elemento", "#elemento", "%elemento"]
+      "alternatives": [
+        "Eddie Irvine",
+        "Rubens Barrichello",
+        "Michael Shumacher",
+        "Sebastian Vettel"
+      ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
+      "image": "https://media.giphy.com/media/14qgEfMsjXb2VO/giphy.gif",
+      "title": "Quantos campeonatos mundiais a Red Bull Racing tem?",
       "description": "Faz tempo em haha",
       "answer": 0,
+      "alternatives": ["2", "3", "1", "4"]
+    },
+    {
+      "image": "https://media.giphy.com/media/ys5paotHEo6WY/giphy.gif",
+      "title": "Como é chamado o lugar seguro em que o piloto fica?",
+      "description": "Segurança acima de tudo",
+      "answer": 1,
       "alternatives": [
-        "background: linear-gradient(#e66465, #9198e5);",
-        "background: gradient(#e66465, #9198e5);"
+        "Caixa preta",
+        "Célula de sobrevivência",
+        "Cockpit",
+        "Célula de fibra de carbono"
       ]
+    },
+    {
+      "image": "https://media.giphy.com/media/dC9JW7cpUTiIZLWN1E/giphy.gif",
+      "title": "Qual é a dupla de pilotos da Mercedez?",
+      "description": "Dupla de um piloto só kkk",
+      "answer": 3,
+      "alternatives": [
+        "Hamilton e Lecrerc",
+        "Bottas e Russel",
+        "Hamilton e Alonso",
+        "Hamilton e Bottas"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/4PUj9aD0MmP4n8ETHl/giphy.gif",
+      "title": "Qual a última vitória do Senna na F1?",
+      "description": "Faz tempo em haha",
+      "answer": 2,
+      "alternatives": ["1994", "2000", "1993", "1992"]
     }
   ],
-  "external": [""],
+  "external": ["https://tchelo-quiz.bateradt.vercel.app/"],
   "theme": {
     "colors": {
       "primary": "#0d47a1",
