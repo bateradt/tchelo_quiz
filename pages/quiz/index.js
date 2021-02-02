@@ -7,6 +7,23 @@ import QuizContainer from '../../src/components/QuizContainer';
 import Button from '../../src/components/Button';
 import AlternativesForm from '../../src/components/AlternativesForm';
 import BackLinkArrow from '../../src/components/BackLinkArrow';
+import Link from '../../src/components/Link';
+
+function msgQuestions(correctQuestions) {
+  switch (correctQuestions) {
+    case 0:
+    case 1:
+      return <p>Você precisa estudar sobre Formula 1</p>;
+    case 2:
+    case 3:
+      return (
+        <p>Você sabe alguma coisa, mas precisa se esforçar mais...</p>
+      );
+    case 4:
+    case 5:
+      return <p>Você é um expert em F1, parabéns!</p>;
+  }
+}
 
 function ResultWidget({ results }) {
   return (
@@ -25,6 +42,7 @@ function ResultWidget({ results }) {
             }, 0)} */}
           {results.filter((x) => x).length} perguntas
         </p>
+        {msgQuestions(results.filter((x) => x).length)}
         <ul>
           {results.map((result, index) => (
             <li key={`result__${result}`}>
@@ -33,6 +51,9 @@ function ResultWidget({ results }) {
             </li>
           ))}
         </ul>
+        <Widget.Topic as={Link} href="/">
+          Jogar novamente
+        </Widget.Topic>
       </Widget.Content>
     </Widget>
   );

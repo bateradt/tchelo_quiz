@@ -19,7 +19,7 @@
       "image": "https://media.giphy.com/media/14qgEfMsjXb2VO/giphy.gif",
       "title": "Quantos campeonatos mundiais a Red Bull Racing tem?",
       "description": "Faz tempo em haha",
-      "answer": 0,
+      "answer": 3,
       "alternatives": ["2", "3", "1", "4"]
     },
     {
@@ -54,7 +54,12 @@
       "alternatives": ["1994", "2000", "1993", "1992"]
     }
   ],
-  "external": ["https://tchelo-quiz.bateradt.vercel.app/"],
+  "external": [
+    "https://tchelo-quiz.bateradt.vercel.app/",
+    "https://aluraquiz-base.alura-challenges.vercel.app/",
+    "https://quiz-cavaleiro-zodiaco.vercel.app/",
+    "https://learning-next-js.mariomendonca.vercel.app/"
+  ],
   "theme": {
     "colors": {
       "primary": "#0d47a1",

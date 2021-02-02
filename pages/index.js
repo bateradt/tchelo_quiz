@@ -115,6 +115,7 @@ export default function Home() {
                     <Widget.Topic
                       as={Link}
                       href={`/quiz/${projectName}___${githubUser}`}
+                      target="_blank"
                     >
                       {`${githubUser}/${projectName}`}
                     </Widget.Topic>
@@ -134,7 +135,7 @@ export default function Home() {
           initial="hidden"
           animate="show"
         />
-        <GitHubCorner projectUrl="https://www.alura.com.br/" />
+        <GitHubCorner projectUrl="https://github.com/bateradt/tchelo_quiz" />
       </QuizContainer>
     </QuizBackground>
   );
